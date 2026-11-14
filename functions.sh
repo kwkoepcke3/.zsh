@@ -55,8 +55,6 @@ function timer() {
 function backup_dragonwilds() {
     SAVE_DIR=$DRAGONWILDS
     # SAVE_DIR="/home/mayo/Software/Steam/steamapps/compatdata/1374490/pfx/drive_c/users/steamuser/AppData/Local/RSDragonwilds/Saved"
-    CHAR_DIR=${SAVE_DIR}/SaveCharacters
-    WORLD_DIR=${SAVE_DIR}/SaveGames
 
     OUTPUT_DIR="/home/mayo/Documents/dragonwilds_backups"
     
