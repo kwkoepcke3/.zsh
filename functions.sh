@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 function discordize() {
         ffmpeg -i $1 -fs 8M $2
 }
