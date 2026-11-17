@@ -4,6 +4,9 @@ export PATH=~/.local/bin:$PATH
 
 export PATH=~/.bin:$PATH
 
+export SUDO_EDITOR=~/.bin/vim
+export EDITOR=~/.bin/vim
+
 export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="jtriley"
 plugins=(git systemd)
