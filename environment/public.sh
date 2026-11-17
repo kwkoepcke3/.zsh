@@ -2,6 +2,8 @@
 
 export PATH=~/.local/bin:$PATH
 
+export PATH=~/.bin:$PATH
+
 export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="jtriley"
 plugins=(git systemd)
