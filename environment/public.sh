@@ -16,6 +16,4 @@ plugins=(git systemd)
 
 export WG_CONF='/home/mayo/Documents/airvpn/mayo-pc.wg.conf'
 
-# I have no earthly idea why this changed locations
-# export DRAGONWILDS='/home/mayo/Software/Steam/steamapps/compatdata/1374490/pfx/drive_c/users/steamuser/AppData/Local/RSDragonwilds/Saved'
-export DRAGONWILDS='/home/mayo/.local/share/Steam/steamapps/compatdata/1374490/pfx/drive_c/users/steamuser/AppData/Local/RSDragonwilds/Saved'
+export DRAGONWILDS='/media/ssd2/Steam/steamapps/compatdata/1374490/pfx/drive_c/users/steamuser/AppData/Local/RSDragonwilds'

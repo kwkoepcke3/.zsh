@@ -53,14 +53,14 @@ function timer() {
 }
 
 function backup_dragonwilds() {
-    SAVE_DIR=$DRAGONWILDS
+    SAVE_DIR=$DRAGONWILDS/Saved
     # SAVE_DIR="/home/mayo/Software/Steam/steamapps/compatdata/1374490/pfx/drive_c/users/steamuser/AppData/Local/RSDragonwilds/Saved"
 
     OUTPUT_DIR="/home/mayo/Documents/dragonwilds_backups"
     
     BACKUP_NAME="dragonwilds-$(date +"%m-%d-%y-%H-%M-%S").tar.gz"
 
-    tar -C "$DRAGONWILDS" -czvf "$OUTPUT_DIR/$BACKUP_NAME" SaveCharacters SaveGames
+    tar -C "$SAVE_DIR" -czvf "$OUTPUT_DIR/$BACKUP_NAME" SaveCharacters SaveGames
 
     notify-send "Dragonwilds" "Backup created!"
     bell
